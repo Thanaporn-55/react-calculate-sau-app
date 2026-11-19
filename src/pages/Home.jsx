@@ -23,13 +23,13 @@ export default function Home() {
 
                 {/* แสดงเมนู 3 เมนู */}
                 <div className='mt-18 flex gap-10'>
-                    <Link to="/bmi">
+                    <Link to="/Bmi">
                         <CardMenu imgShow={bmi} titleShow="BMI (ดัชนีมวลกาย)" stitleShow="คำนวณน้ำหนักและส่วนสูงว่าเหมาะสมหรือไม่" />
                     </Link>
-                    <Link to="/bmr">
+                    <Link to="/Bmr">
                         <CardMenu imgShow={bmr} titleShow="BMR (อัตราการเผาผลาญร่างกาย)" stitleShow="คำนวณอัตราการเผาผลาญที่ร่างกายต้องการ" />
                     </Link>
-                    <Link to="/car">
+                    <Link to="/Car">
                         <CardMenu imgShow={car} titleShow="CAR (เงินผ่อนรถต่อเงินเดือน)" stitleShow="คํานวณเงินผ่อนรถยนต์หรือรถเครื่องต่อเดือน" />
                     </Link>
                 </div>
